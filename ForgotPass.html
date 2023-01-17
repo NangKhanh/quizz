@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password</title>
+    <link rel="stylesheet" href="access/css/forgotpass.css">
+</head>
+<body class="body">
+    <form action="">
+        <div class="container">
+            <div class="detail">
+                <h1>Forgot password</h1>
+                <br> <input type="text" placeholder="Email address">
+                <br><input type="date">
+                <br><input id="pass" type="password" placeholder="New password ">
+                <img onclick="showpass()" src="access/images/eye.png" alt="eye">
+                <br><input id="repass" type="password" placeholder="Re type password ">
+                <img  onclick="confirmpass()" src="access/images/eye.png" alt="eye">
+            </div>
+            <input class="button" type="submit" value="confirm">
+            <br> 
+            <div class="line">
+                Remember your account ? <a href="Login.html">Login now</a>
+            </div>
+        </div>
+</body>
+
+<script src="access/script/Hidepass.js"></script>
+</html>
